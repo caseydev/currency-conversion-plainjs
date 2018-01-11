@@ -1,0 +1,89 @@
+/*Typography*/
+
+html {
+  font: 16px Arial, sans-serif;
+}
+
+form label {
+  font-size: .9em;
+}
+
+
+/* Base */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Form */
+
+form {
+  margin: 2% auto;
+  padding: 1em;
+  width: 320px;
+  color: #aaa;
+  border: .1em solid #ddd;
+  border-radius: 4px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  height: 3em;
+  border: .1em solid #ddd;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.name input[name="surname"] {
+  float: right;
+}
+
+.name input[type="mail"] {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.radio,
+.dropdown,
+.message,
+.check,
+.submit {
+  margin-top: 1em;
+}
+
+.dropdown select,
+.message textarea,
+.submit input {
+  width: 100%;
+}
+
+.dropdown select {
+  color: #aaa;
+}
+
+.result-box {
+  padding: 10px;
+  border: .1em solid #ddd;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.result-box:before {
+  content: 'Conversion Value:';
+  display: block;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
